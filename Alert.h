@@ -16,6 +16,8 @@ class IAlerter
 class StatsAlerter 
 {
   
+  public:
+  
   StatsAlerter (int,int)
   {
     
