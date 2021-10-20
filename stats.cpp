@@ -7,13 +7,13 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
   {      
     stat.min=NAN ;
     stat.max=NAN;
-    stat.avg=NAN; 
+    stat.average=NAN; 
   }
   else
   {
      stat.min = *min_element(vectorarray.begin(), vectorarray.end());
      stat.max = *max_element(vectorarray.begin(), vectorarray.end());
-     stat.avg = avg1(vectorarray);     
+     stat.average = avg1(vectorarray);     
   } 
      return stat; 
 }
