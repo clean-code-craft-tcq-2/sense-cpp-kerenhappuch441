@@ -17,6 +17,10 @@ TEST_CASE("reports average, minimum and maximum") {
 TEST_CASE("average is NaN for empty array") {
     auto computedStats = Statistics::ComputeStatistics({});
     printf("2nd test cast");
+    
+     printf("2nd test cast %d",computedStats.average);
+     printf("2nd test cast %d",computedStats.max);
+     printf("2nd test cast %d",computedStats.min);
    /* REQUIRE(isnan(computedStats.average)==1);
     REQUIRE(isnan(computedStats.max)==1);
     REQUIRE(isnan(computedStats.min)==1);*/
