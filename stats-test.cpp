@@ -20,14 +20,14 @@ TEST_CASE("average is NaN for empty array") {
     
   /*   printf("2nd test cast %d",computedStats.average);
      printf("2nd test cast %d",computedStats.max);
-     printf("2nd test cast %d",computedStats.min);*/
+     printf("2nd test cast %d",computedStats.min);
     REQUIRE(std::isnan(computedStats.average)==1);
    
    std::cout<<"the value is "<<std::isnan(computedStats.max);
    std::cout<<"the value is "<<std::isnan(computedStats.min);
    std::cout<<"the value is "<<std::isnan(computedStats.average);
     REQUIRE(std::isnan(computedStats.max)==1);
-    REQUIRE(std::isnan(computedStats.min)==1);
+    REQUIRE(std::isnan(computedStats.min)==1);*/
 }
 
 TEST_CASE("raises alerts when max is greater than threshold") {
