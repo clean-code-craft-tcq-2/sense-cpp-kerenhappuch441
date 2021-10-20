@@ -8,5 +8,5 @@ class Stats{
     float max;
     
 };
-    Stats ComputeStatistics(const std::vector<float>&);
+    Stats ComputeStatistics(const std::vector<float>& vectorarray);
 }
