@@ -18,7 +18,7 @@ class StatsAlerter
   
   public:
   
-  StatsAlerter (int,int)
+  StatsAlerter (const float&, std::vector<IAlerter*>&)
   {
     
   }
