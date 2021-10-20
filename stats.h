@@ -9,4 +9,5 @@ class Stats{
     
 };
     Stats ComputeStatistics(const std::vector<float>& vectorarray);
+    float avg(std::vector<float> const& v);
 }
