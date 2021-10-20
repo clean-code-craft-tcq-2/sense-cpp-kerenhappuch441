@@ -13,11 +13,11 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
   {
      stat.min = *min_element(vectorarray.begin(), vectorarray.end());
      stat.max = *max_element(vectorarray.begin(), vectorarray.end());
-     stat.average = Statistics::avg1(vectorarray);     
+     stat.average = avg(vectorarray);     
   } 
      return stat; 
 }
 
-float Statistics::avg1(std::vector<float> const& v) {
+float Statistics::avg(std::vector<float> const& v) {
     return 1.0 * std::accumulate(v.begin(), v.end(), 0LL) / v.size();
 }
