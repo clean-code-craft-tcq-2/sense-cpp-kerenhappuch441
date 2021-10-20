@@ -17,3 +17,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
   } 
      return stat; 
 }
+
+float Statistics::avg1(std::vector<float> const& v) {
+    return 1.0 * std::accumulate(v.begin(), v.end(), 0LL) / v.size();
+}
