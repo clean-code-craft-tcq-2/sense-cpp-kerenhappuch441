@@ -22,6 +22,10 @@ TEST_CASE("average is NaN for empty array") {
      printf("2nd test cast %d",computedStats.max);
      printf("2nd test cast %d",computedStats.min);
    /* REQUIRE(isnan(computedStats.average)==1);
+   
+   cout<<"the value is "<<std::isnan(computedStats.max);
+   cout<<"the value is "<<std::isnan(computedStats.min);
+   cout<<"the value is "<<std::isnan(computedStats.average);
     REQUIRE(isnan(computedStats.max)==1);
     REQUIRE(isnan(computedStats.min)==1);*/
 }
