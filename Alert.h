@@ -1,10 +1,10 @@
 
-class EmailAlert
+class EmailAlert:public IAlerter
 { public:
 bool emailSent=true;
 };
 
-class LEDAlert
+class LEDAlert:public IAlerter
 { public:
 bool ledGlows=true;
 };
