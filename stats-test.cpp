@@ -30,6 +30,9 @@ TEST_CASE("raises alerts when max is greater than threshold") {
     StatsAlerter statsAlerter(maxThreshold, alerters);
     statsAlerter.checkAndAlert({99.8, 34.2, 4.5, 6.7});
 
+    std::cout<<"the value is "<<(emailAlert.emailSent);
+    std::cout<<"the value 1 is "<<(ledAlert.ledGlows);
+    
     REQUIRE(emailAlert.emailSent);
     REQUIRE(ledAlert.ledGlows);
 }
