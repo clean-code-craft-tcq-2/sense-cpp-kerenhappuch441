@@ -25,7 +25,7 @@ TEST_CASE("raises alerts when max is greater than threshold") {
     EmailAlert emailAlert;
     LEDAlert ledAlert;
     std::vector<IAlerter*> alerters(2);// = {emailAlert, ledAlert};
-    alerters ={emailAlert, ledAlert}
+    alerters ={&emailAlert, &ledAlert}
     
    
     const float maxThreshold = 10.2;
