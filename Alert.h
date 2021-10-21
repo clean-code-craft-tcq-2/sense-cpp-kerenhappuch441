@@ -29,5 +29,7 @@ class StatsAlerter
   }
   void checkAndAlert(const std::vector<float>& vectorarray)
   {
+   
+    vectorarray=NULL;
   }
 };
