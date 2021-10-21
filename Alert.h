@@ -1,12 +1,12 @@
 
 class EmailAlert
 { public:
-int emailSent;
+bool emailSent=true;
 };
 
 class LEDAlert
 { public:
-int ledGlows;
+bool ledGlows=true;
 };
 
 class IAlerter
