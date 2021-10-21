@@ -25,7 +25,7 @@ TEST_CASE("raises alerts when max is greater than threshold") {
     EmailAlert emailAlert;
     LEDAlert ledAlert;
    
-    std::vector<<IAlerter*>alerters;
+    std::vector<IAlerter*>alerters;
     alerters.push_back(&emailAlert);
     
     //v.push_back(1); v.push_back(2); v.push_back(3);
