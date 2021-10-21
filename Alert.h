@@ -1,18 +1,22 @@
 
-class EmailAlert:public IAlerter
-{ public:
-bool emailSent=true;
-};
-
-class LEDAlert:public IAlerter
-{ public:
-bool ledGlows=true;
-};
 
 class IAlerter
 {
 
 };
+class EmailAlert:public IAlerter
+{ 
+public:
+bool emailSent=true;
+};
+
+class LEDAlert:public IAlerter
+{ 
+public:
+bool ledGlows=true;
+};
+
+
 class StatsAlerter 
 {
   
