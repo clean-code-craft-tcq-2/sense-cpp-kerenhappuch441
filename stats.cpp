@@ -10,7 +10,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
        printf("stat is called 1");
     stat.min=NAN ;
     stat.max=NAN;
-    stat.average=NAN; 
+    stat.average=avg(vectorarray); 
   }
   else
   {
