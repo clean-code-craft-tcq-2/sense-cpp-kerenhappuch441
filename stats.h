@@ -6,10 +6,7 @@ class Stats{
     public:
     float min;
     float max;
-    float average;
-    
-    
-    
+    float average; 
 };
     Stats ComputeStatistics(const std::vector<float>& vectorarray);
     float avg(std::vector<float> const& v);
