@@ -9,7 +9,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
   {   
        printf("stat is called 1");
     stat.min=NAN ;
-    stat.max=NAN;
+    stat.max= *max_element(vectorarray.begin(), vectorarray.end());
     stat.average=avg(vectorarray); 
     std::cout<<"the value is "<<stat.average;
   }
