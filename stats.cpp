@@ -2,12 +2,9 @@
 using namespace Statistics;
 Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
     //Implement statistics here
-    
-    printf("stat is called");
    Stats stat; 
   if(vectorarray.empty())
   {   
-       printf("stat is called 1");
     stat.min=NAN ;
     stat.max= *max_element(vectorarray.begin(), vectorarray.end());
     stat.average=avg(vectorarray); 
@@ -15,7 +12,6 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
   }
   else
   {
-       printf("stat is called 2");
      stat.min = *min_element(vectorarray.begin(), vectorarray.end());
      stat.max = *max_element(vectorarray.begin(), vectorarray.end());
      stat.average = avg(vectorarray);     
