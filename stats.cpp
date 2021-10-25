@@ -6,7 +6,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
   if(vectorarray.empty())
   {   
     stat.min=NAN ;
-    stat.max= *max_element(vectorarray.begin(), vectorarray.end());
+    stat.max= NAN;
     stat.average=avg(vectorarray); 
     std::cout<<"the value is "<<stat.average;
   }
