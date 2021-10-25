@@ -8,7 +8,6 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& vectorarray ) {
     stat.min=NAN ;
     stat.max= NAN;
     stat.average=avg(vectorarray); 
-    std::cout<<"the value is "<<stat.average;
   }
   else
   {
